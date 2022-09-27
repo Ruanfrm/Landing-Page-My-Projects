@@ -97,10 +97,24 @@ button {
     cursor: pointer;
      color: #fff; 
      border: none; 
-     font-size: 1rem;"
-}
+     font-size: 1rem;
+     transition: all 0.3s;
+
+    }
 
 button:hover {
     background-color: #77a7ff;
     transform: scale(1.1);
 }
+
+hr {
+    border-style: none;
+    background: rgb(11, 29, 115);
+    background: linear-gradient(90deg,
+        rgba(11, 29, 115, 1) 16%,
+        rgba(2, 0, 36, 0.8015581232492998) 46%,
+        rgba(9, 9, 121, 1) 75%,
+        rgba(11, 29, 115, 1) 100%);
+    border-radius: 4rem;
+    height: 1rem;
+  }
