@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+
+body {
+    background: rgb(11, 29, 115);
+    background: linear-gradient(90deg,
+        rgba(11, 29, 115, 1) 16%,
+        rgba(2, 0, 36, 0.8015581232492998) 46%,
+        rgba(9, 9, 121, 1) 75%,
+        rgba(11, 29, 115, 1) 100%);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   color: white;
+    padding: 2rem;
+  }
+  
+
+ .h1 { 
+    text-align: center;
+    font-weight: bold;
+    margin: 4rem 0;
+    color: white;
+ }
+
+ p {
+    text-align: center;
+    font-weight: bold;
+    margin: 4rem 0;
+    color: white;
+ }
+ .a {
+    color: white;
+ }
+
+footer {
+    text-align: center;
+    margin: 2rem 0;
+    color: bl;
+    font-size: 1.2rem;
+}
+ .ifreme {
+   border-radius: 1rem;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s;
+ }
+
+ .ifreme:hover {
+    transform: scale(1.1);
+ }
+
+ .ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 3rem;
+    row-gap: 4rem;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    z-index: 99;
+}
+.navbar a {
+    margin: auto 20px auto 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar li {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.li {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button {
+    background: #2a43d6;
+     border-radius: 6px; 
+     padding: 15px;
+    cursor: pointer;
+     color: #fff; 
+     border: none; 
+     font-size: 1rem;"
+}
+
+button:hover {
+    background-color: #77a7ff;
+    transform: scale(1.1);
+}
